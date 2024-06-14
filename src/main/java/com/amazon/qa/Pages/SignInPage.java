@@ -23,6 +23,4 @@ public class SignInPage extends TestBase {
     public WebElement password;
     @FindBy(xpath = "//input[@id=\"signInSubmit\"]")
     public  WebElement signButton;
-
-
 }

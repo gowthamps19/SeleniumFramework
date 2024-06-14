@@ -15,10 +15,10 @@ public class HomePageActions extends HomePage {
         super();
     }
 
-    public SignInPage ClickSignInLink() throws IOException {
+    public SignInPageActions ClickSignInLink() throws IOException {
         System.out.println(signInLink);
         signInLink.click();
-        return new SignInPage();
+        return new SignInPageActions();
 
 
     }

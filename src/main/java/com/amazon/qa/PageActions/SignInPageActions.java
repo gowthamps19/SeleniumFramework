@@ -9,9 +9,6 @@ public class SignInPageActions extends SignInPage {
     public SignInPageActions() throws IOException {
     }
 
-    public String getSignInPageTitle(){
-       return driver.getTitle();
-    }
     public void enterUserName(String un){
     emailName.sendKeys(un);
     }
@@ -27,7 +24,10 @@ public class SignInPageActions extends SignInPage {
     }
     public void clickSignInButton(){
         signButton.click();
-
+    }
+    public String validateSignInPageTitle(){
+        return driver.getTitle();
     }
 }
+
 

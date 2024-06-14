@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="All Test Suite">
+<!DOCTYPE suite  SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" verbose="10">
     <test name="Sample Test">
         <classes>
-                <class name="com.amazon.qa.TestCases.HomePageTest" />
-                <class name="com.amazon.qa.TestCases.SignInPageTest" />
-
+                <class name="com.amazon.qa.TestCases.ProductPageTest"></class>
         </classes>
-
     </test>
 </suite>
